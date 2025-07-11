@@ -1200,135 +1200,223 @@ p.help-block li {
   margin: 0 2px;
 }
 
-/* Contact Section
+/* Request Section
 --------------------------------*/
-#contact {
-  padding: 60px 0;
+body {
+  background: #F2F3EB;
 }
 
-#contact .contact-info {
-  margin-bottom: 20px;
+button {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, input, select, textarea {
+  color: #5A5A5A;
+  font: inherit;
+  margin: 0;
+}
+
+input {
+  line-height: normal;
+}
+
+textarea {
+  overflow: auto;
+}
+
+#container {
+  border: solid 3px #474544;
+  max-width: 768px;
+  margin: 60px auto;
+  position: relative;
+}
+
+form {
+  padding: 37.5px;
+  margin: 50px 0;
+}
+
+h1 {
+  color: #474544;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 7px;
   text-align: center;
-}
-
-#contact .contact-info i {
-  font-size: 24px;
-  display: inline-block;
-  margin-bottom: 0;
-  color: #E91E63;
-  float: left;
-}
-
-#contact .contact-info address, #contact .contact-info p {
-  margin-bottom: 0;
-  /* color: #000; */
-  display: block;
-  float: left;
-  width: 100%;
-  margin-bottom: 15px;
-  padding: 0;
-  margin-top: 0;
-  margin-left: 27px;
-  font-size: 14px;
-}
-
-#contact .contact-info h3 {
-  font-size: 16px;
-  margin-bottom: 15px;
-  font-weight: bold;
   text-transform: uppercase;
-  color: #E91E63;
-  float: left;
-  margin: 8px 15px;
 }
 
-#contact .contact-info a {
-  color: #b885c2;
+.underline {
+  border-bottom: solid 2px #474544;
+  margin: -0.512em auto;
+  width: 80px;
 }
 
-#contact .contact-info a:hover {
-  color: #E91E63;
+.icon_wrapper {
+  margin: 50px auto 0;
+  width: 100%;
 }
 
-#contact .contact-address, #contact .contact-phone, #contact .contact-email {
-  margin-bottom: 20px;
-}
-
-@media (min-width: 768px) {
-  #contact .contact-address, #contact .contact-phone, #contact .contact-email {
-    padding: 0;
-    text-align: left;
-  }
-}
-
-@media (min-width: 768px) {
-  #contact .contact-phone {
-  }
-}
-
-#contact #google-map {
-  height: 290px;
-  margin-bottom: 20px;
-}
-
-@media (max-width: 576px) {
-  #contact #google-map {
-    margin-top: 20px;
-  }
-}
-
-#contact .form #sendmessage {
-  color: #E91E63;
-  border: 1px solid #E91E63;
-  display: none;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-#contact .form #errormessage {
-  color: red;
-  display: none;
-  border: 1px solid red;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-#contact .form #sendmessage.show, #contact .form #errormessage.show, #contact .form .show {
+.icon {
   display: block;
+  fill: #474544;
+  height: 50px;
+  margin: 0 auto;
+  width: 50px;
 }
 
-#contact .form .validation {
-  color: red;
-  display: none;
-  margin: 0 0 20px;
-  font-weight: 400;
-  font-size: 13px;
+.email {
+	float: right;
+	width: 45%;
 }
 
-#contact .form input, #contact .form textarea {
-  padding: 10px 14px;
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 15px;
+input[type='text'], [type='email'], select, textarea {
+	background: none;
   border: none;
+	border-bottom: solid 2px #474544;
+	color: #474544;
+	font-size: 1.000em;
+  font-weight: 400;
+  letter-spacing: 1px;
+	margin: 0em 0 1.875em 0;
+	padding: 0 0 0.875em 0;
+  text-transform: uppercase;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
 }
 
-#contact .form button[type="submit"] {
-  background: #E91E63;
-  border: 0;
-  border-radius: 3px;
-  padding: 10px 30px;
-  color: #fff;
-  transition: 0.4s;
+input[type='text']:focus, [type='email']:focus, textarea:focus {
+	outline: none;
+	padding: 0 0 0.875em 0;
+}
+
+.message {
+	float: none;
+}
+
+.name {
+	float: left;
+	width: 45%;
+}
+
+select {
+  background: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-32.png') no-repeat right;
+  outline: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+.subject {
+  width: 100%;
+}
+
+.telephone {
+  width: 100%;
+}
+
+textarea {
+	line-height: 150%;
+	height: 150px;
+	resize: none;
+  width: 100%;
+}
+
+::-webkit-input-placeholder {
+	color: #474544;
+}
+
+:-moz-placeholder { 
+	color: #474544;
+	opacity: 1;
+}
+
+::-moz-placeholder {
+	color: #474544;
+	opacity: 1;
+}
+
+:-ms-input-placeholder {
+	color: #474544;
+}
+
+#form_button {
+  background: none;
+  border: solid 2px #474544;
+  color: #474544;
   cursor: pointer;
+  display: inline-block;
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-size: 0.875em;
+  font-weight: bold;
+  outline: none;
+  padding: 20px 35px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
 }
 
-#contact .form button[type="submit"]:hover {
-  background: #081e5b;
+#form_button:hover {
+  background: #474544;
+  color: #F2F3EB;
+}
+
+@media screen and (max-width: 768px) {
+  #container {
+    margin: 20px auto;
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 26px;
+  }
+  
+  .underline {
+    width: 68px;
+  }
+  
+  #form_button {
+    padding: 15px 25px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  h1 {
+    font-size: 18px;
+  }
+  
+  .icon {
+    height: 35px;
+    width: 35px;
+  }
+  
+  .underline {
+    width: 53px;
+  }
+  
+  input[type='text'], [type='email'], select, textarea {
+    font-size: 0.875em;
+  }
 }
 /*--------------------------------------------------------------
 # Sitemao
