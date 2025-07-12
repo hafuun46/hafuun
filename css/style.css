@@ -9,7 +9,7 @@ License: https://webthemez.com/license
 body {
   background: #280045;
   color: #c393cb;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 a {
@@ -29,7 +29,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -132,7 +132,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 9px 0 0 0;
   padding: 0;
   line-height: 1;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 700;
 }
 
@@ -201,7 +201,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   font-size: 64px;
   text-transform: uppercase;
-  font-family: 'Russo One', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   background: -webkit-linear-gradient(#ffc08a, #E91E63);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -216,7 +216,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro .intro-content .btn-get-started, #intro .intro-content .btn-projects {
-  font-family: "Raleway", sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 15px;
   font-weight: bold;
   letter-spacing: 1px;
@@ -355,7 +355,7 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   display: inline-block;
   color: #9f6ab9;
-  font-family: "Raleway", sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 700;
   font-size: 14px;
   outline: none;
@@ -577,7 +577,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #cecece;
   font-weight: 700;
   font-size: 18px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 #about .content h3 {
@@ -1112,7 +1112,7 @@ p.help-block li {
 }
 
 #call-to-action .cta-btn {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 700;
   font-size: 16px;
   letter-spacing: 1px;
@@ -1202,10 +1202,6 @@ p.help-block li {
 
 /* Request Section
 --------------------------------*/
-body {
-  background: rgba(0,0,0,0.5);
-}
-
 button {
   overflow: visible;
 }
@@ -1361,7 +1357,7 @@ textarea {
   color: #474544;
   cursor: pointer;
   display: inline-block;
-  font-family: 'Helvetica', Arial, sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 0.875em;
   font-weight: bold;
   outline: none;
